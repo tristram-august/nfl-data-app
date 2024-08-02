@@ -120,5 +120,5 @@ if uploaded_file is not None:
         st.write( '### 3. Visual Insights ')
 
         #Creating a PyGWalker Dashboard
-        walker = pyg.walk(data, return_html=True).to_html_without_iframe()
+        walker = pyg.walk(data, return_html=True)
         st.components.v1.html(walker, width=1100, height=800)    #Adjust width and height as needed
