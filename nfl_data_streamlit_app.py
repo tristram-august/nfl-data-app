@@ -4,7 +4,6 @@
 #Importing the necessary packages
 
 import streamlit as st
-import openpyxl
 import pygwalker as pyg
 import pandas as pd
 
